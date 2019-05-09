@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>JobLister</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.3.1/flatly/bootstrap.min.css">
-    <link rel="stylesheet" herf="css/styles/css">
+    <link rel="stylesheet" herf="css/styles.css">
   </head>
   <body>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
