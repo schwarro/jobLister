@@ -3,6 +3,15 @@
 
   $job = new Job;
 
+  if(isset($_POST['del_id'])){
+    $del_id = $_POST['del_id'];
+    if($job->delete($del_id)){
+      redirect('index.php', 'Post Deleted', 'success');
+    } else {
+      redirect('index.php', 'Post Not Deleted', 'error');
+    }
+  }
+
   $template = new Template('templates/job-single.php');
 
   $job_id = isset($_GET['id']) ? $_GET['id'] : null;
