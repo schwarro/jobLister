@@ -43,9 +43,8 @@
           case is_null($value) :
             $type = PDO::PARAM_NULL;
             break;
-          case is_str($value) :
-            $type = PDO::PARAM_STR;
-            break;
+            default :
+              $type = PDO::PARAM_STR;
         }
       }
       $this->stmt->bindValue($param, $value, $type);
