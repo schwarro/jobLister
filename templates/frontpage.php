@@ -3,7 +3,7 @@
   <main role="main">
 
   <div class="jumbotron">
-    <div class="container style="margin-top: 80px;">
+    <div class="container">
       <h1 class="display-3"><?php echo SITE_TITLE; ?></h1>
       <h3 class="display-6">Find a Job</h3>
       <form method="GET" action="index.php">

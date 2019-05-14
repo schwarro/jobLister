@@ -1,5 +1,5 @@
 <?php include 'inc/header.php'; ?>
-  <div class="container" style="margin-top: 80px;">
+  <div class="container">
     <h2 class="page-header">Edit Job Listing</h2>
   	<form method="post" action="edit.php?id=<?php echo $job->id; ?>">
   		<div class="form-group">

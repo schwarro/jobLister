@@ -1,6 +1,6 @@
 <?php include 'inc/header.php'; ?>
   <main role="main">
-  <div class="container" style="margin-top: 80px;">
+  <div class="container">
     <h2 class="page-header"><?php echo $job->job_title; ?> (<?php echo $job->location; ?>)</h2>
     <small>Posted By: <?php echo $job->contact_user; ?> on <?php echo $job->post_date; ?></small>
     <hr>
